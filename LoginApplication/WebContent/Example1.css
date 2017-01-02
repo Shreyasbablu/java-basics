@@ -1,0 +1,32 @@
+S@CHARSET "ISO-8859-1";
+head {
+	font: 15pt;
+	color: red;
+}
+
+body {
+	background-color: powderblue;
+	color: red;
+}
+
+h1 {
+	color: green;
+	font-size: 300%;
+	font-family: verdana;
+}
+
+h2 {
+	float: right;
+}
+
+p {
+	color: dark orange;
+	border: 2px;
+	padding: 30px;
+}
+
+<!--div { -->
+<!--	color: blue; -->
+<!--	margin: 40px; -->
+<!--}  -->
+
