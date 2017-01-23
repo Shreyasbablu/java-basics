@@ -4,29 +4,27 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Login Page</title>
+<style type="text/css">
+body
+{ 
+color: red;
+}
+input 
+{
+	color: black;
+}
+</style>
 </head>
 <body>
-
-log in 
-please login with credentials here
+Please login with your credentials here:
+<br>
 <form action="validate">
-
-<table border="1" aling="center">
-
-<tr>
-
-<!-- <td> <span class="glyphicon glyphicon  </td> -->
-
-</tr>
-
-</table>
-
-username:<input type="text" name="id"><br>
-password:<input type="password" name="password"><br>
-
-<input type="submit" value="login">
-
+User Name: <input type="text" name="id">
+<br><br> 
+Password:  <input type="password" name="password">
+<br><br> 
+<input  type="submit" value="Login">
 </form>
 </body>
 </html>
